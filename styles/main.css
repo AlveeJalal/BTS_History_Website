@@ -1,0 +1,164 @@
+/* DEVELOPER Alvee Jalal, IS117-101, Fall 2022 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+body{
+    background-color:blueviolet;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-nav{
+    display: flex;
+}
+.centerhead{
+    text-align:center;
+    font-size:50px;
+    font-family: "Times New Roman";
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+section
+{
+    border: 5px solid black;
+    border-radius: 6px;
+
+}
+
+.spacebottom{
+    padding-bottom: 100px;
+}
+
+
+
+
+
+section .col-lg-8 ul li{
+    display: list-item;
+}
+
+
+
+td ul{
+    padding-top: 0px;
+    clear: top;
+}
+
+@media only screen and (max-width:500px){
+
+
+}
+
+ div ul li {
+    text-align: center;
+    display: flex;
+    padding-left: 100px;
+
+}
+.align-right{
+    text-align: right;
+}
+
+.navbar-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.navbar-nav ul li{
+    float:left;
+}
+
+
+
+
+div .navbar-nav ul li a {
+    display:block;
+    text-align:center;
+    padding-top: 1em;
+    padding-bottom:1em;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+
+}
+
+.navbar-nav ul{
+    list-style: none;
+    position:relative;
+}
+
+.navbar-nav ul li ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    width:100%;
+
+}
+
+
+.navbar-nav > ul::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    padding-right: 1px;
+
+}
+
+.nav-item {
+    border-right:  2px solid black;
+    padding-right: 150px;
+
+
+
+
+
+}
+
+
+li p{
+    font-weight: bold;
+}
+.carousel-item{
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.card{
+margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+
+}
+
+.carousel{
+   padding-left: inherit;
+padding-right: inherit;
+    padding-top:30px;
+}
+
+.carousel-control-next{
+    padding-right: 0px;
+
+}
