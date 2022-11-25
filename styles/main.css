@@ -8,7 +8,7 @@
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 body{
@@ -50,15 +50,22 @@ section .col-lg-8 ul li{
     display: list-item;
 }
 
-
+.col-lg-4{
+    border-right: 3px solid black;
+    padding-bottom: 0;
+}
 
 td ul{
     padding-top: 0px;
     clear: top;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:980px){
+section .row .col-lg-4{
+    border-right:0;
+    border-bottom: 3px solid black;
 
+}
 
 }
 
@@ -68,6 +75,12 @@ td ul{
     padding-left: 100px;
 
 }
+
+.col-lg-8  ul li {
+    padding-left: 0;
+}
+
+
 .align-right{
     text-align: right;
 }
