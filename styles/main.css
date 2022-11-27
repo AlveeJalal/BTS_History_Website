@@ -51,9 +51,11 @@ section .col-lg-8 ul li{
 }
 
 .col-lg-4{
-    border-right: 3px solid black;
+    border-bottom: 3px solid black;
     padding-bottom: 0;
+    padding-right: 0;
 }
+
 
 td ul{
     padding-top: 0px;
@@ -68,6 +70,13 @@ section .row .col-lg-4{
 }
 
 }
+@media only screen and (max-width:980px){
+    section .row .col-lg-4 h3{
+      column-count: 3;
+
+    }
+
+}
 
  div ul li {
     text-align: center;
@@ -80,6 +89,17 @@ section .row .col-lg-4{
     padding-left: 0;
 }
 
+.roww
+{
+    border-right: 3px solid black;
+    border-left:3px solid black;
+    border-bottom: 3px solid black;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+.col-lg-2{
+    padding-right: 0;
+}
 
 .align-right{
     text-align: right;
