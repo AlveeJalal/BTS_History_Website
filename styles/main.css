@@ -52,6 +52,7 @@ section .col-lg-8 ul li{
 
 .col-lg-4{
     border-bottom: 3px solid black;
+    border-right: 3px solid black;
     padding-bottom: 0;
     padding-right: 0;
 }
